@@ -1,0 +1,77 @@
+@import url(./src/styles/header.css);
+@import url(./src/styles/home.css);
+@import url(./src/styles/menu.css);
+@import url(./src/styles/testimonials.css);
+@import url(./src/styles/footer.css);
+
+:root {
+  --color-0: #1d1d1d;
+  --color-0_5: #1d1d1dad;
+  --color-1: #fff9ea;
+  --color-2: #e9a209;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-1);
+}
+
+section {
+  padding: 28px 8%;
+}
+
+.btn-default {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffcb45;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-weight: 600;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.btn-default:hover {
+  background: #f8d477;
+}
+
+
+.social-media-buttons {
+  display: flex;
+  gap: 18px;
+}
+
+.social-media-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 40px;
+  background: #fff;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--color-0);
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow .3s ease;
+}
+
+.social-media-buttons a:hover {
+  box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: var(--color-2);
+  font-size: 1.563rem;
+}
+.section-subtitle {
+  font-size: 2.1875rem;
+}
