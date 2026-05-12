@@ -1,6 +1,8 @@
 @import url(./src/styles/header.css);
 @import url(./src/styles/home.css);
 @import url(./src/styles/menu.css);
+@import url(./src/styles/testimonials.css);
+@import url(./src/styles/footer.css);
 
 :root {
   --color-0: #1d1d1d;
