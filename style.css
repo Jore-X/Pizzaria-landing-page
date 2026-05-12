@@ -18,11 +18,15 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: var(--color-1);
 }
 
 section {
+  overflow: hidden;
   padding: 28px 8%;
 }
 
@@ -43,7 +47,6 @@ section {
   background: #f8d477;
 }
 
-
 .social-media-buttons {
   display: flex;
   gap: 18px;
@@ -61,7 +64,7 @@ section {
   text-decoration: none;
   color: var(--color-0);
   box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
-  transition: box-shadow .3s ease;
+  transition: box-shadow 0.3s ease;
 }
 
 .social-media-buttons a:hover {
@@ -74,4 +77,14 @@ section {
 }
 .section-subtitle {
   font-size: 2.1875rem;
+}
+
+#cta .title,
+#cta .description,
+#cta_buttons,
+#cta .social-media-buttons,
+.pizza,
+#testimonials_deliver,
+.feedback {
+  visibility: hidden;
 }
